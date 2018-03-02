@@ -1,6 +1,9 @@
 
-git clone && cd
+git clone https://github.com/srellik/grpcrestserver-example && cd grpcrestserver-example
+
 bazel run //students_app:server
+
+You should see server running at :8888 port.
 
 curl -v -d '{"user_id": "12345", "password": "pwd123"}' -X POST http://localhost:8888/login | jq
 
