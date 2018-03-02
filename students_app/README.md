@@ -1,4 +1,6 @@
+This example is for [grpcrestserver](https://github.com/srellik/grpcrestserver), it uses bazel, protobuf and grpc.
 
+```
 git clone https://github.com/srellik/grpcrestserver-example && cd grpcrestserver-example
 
 bazel run //students_app:server
@@ -61,3 +63,4 @@ curl -v -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVkc
   "error": "invalid token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVkcyI6IntcIlVzZXJJZFwiOlwiMTIzNDVcIixcIlBhc3N3b3JkXCI6XCJcIixcIk1ldGFkYXRhXCI6bnVsbH0iLCJ0aW1lIjoxNTIwMDE3MjQyNjA4ODY3NzcyfQ.njIGonwRLiL6US1YI27rIF3V8WPOy8xBRg2_b0oW70",
   "code": 16
 }
+```
